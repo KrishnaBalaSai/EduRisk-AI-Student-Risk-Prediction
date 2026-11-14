@@ -1,0 +1,97 @@
+{
+  "seed": 20261022,
+  "profile": "starter",
+  "overall_status": "PASSED \u2014 100% BIT-FOR-BIT REPRODUCIBLE",
+  "entities": [
+    {
+      "entity": "students",
+      "count_run1": 100,
+      "count_run2": 100,
+      "id_match": true,
+      "hash_run1": "2d74d92752811a3e1baafdfe7141b47968e631c34a3a842a0d8657f19f6db096",
+      "hash_run2": "2d74d92752811a3e1baafdfe7141b47968e631c34a3a842a0d8657f19f6db096",
+      "status": "MATCH"
+    },
+    {
+      "entity": "courses",
+      "count_run1": 20,
+      "count_run2": 20,
+      "id_match": true,
+      "hash_run1": "4ccc8a4c88aea821d6367c8946280fba61162dffafe238d8f7906ca73357d8db",
+      "hash_run2": "4ccc8a4c88aea821d6367c8946280fba61162dffafe238d8f7906ca73357d8db",
+      "status": "MATCH"
+    },
+    {
+      "entity": "enrollments",
+      "count_run1": 300,
+      "count_run2": 300,
+      "id_match": true,
+      "hash_run1": "fa577142a6ffec1f0e2556d6a59004817cc9f92252ead111fb65aa8b651d513a",
+      "hash_run2": "fa577142a6ffec1f0e2556d6a59004817cc9f92252ead111fb65aa8b651d513a",
+      "status": "MATCH"
+    },
+    {
+      "entity": "attendance_events",
+      "count_run1": 4198,
+      "count_run2": 4198,
+      "id_match": true,
+      "hash_run1": "95357d9db57884713fa5017f6741ebe60d26246dbb3f036b474c3a1641165fb4",
+      "hash_run2": "95357d9db57884713fa5017f6741ebe60d26246dbb3f036b474c3a1641165fb4",
+      "status": "MATCH"
+    },
+    {
+      "entity": "assessments",
+      "count_run1": 80,
+      "count_run2": 80,
+      "id_match": true,
+      "hash_run1": "39467b01e4fa1e80f89c9849d0a1fba617a070243fb1a6f5465eba3092a7b812",
+      "hash_run2": "39467b01e4fa1e80f89c9849d0a1fba617a070243fb1a6f5465eba3092a7b812",
+      "status": "MATCH"
+    },
+    {
+      "entity": "assessment_results",
+      "count_run1": 1198,
+      "count_run2": 1198,
+      "id_match": true,
+      "hash_run1": "ddde3d513ab7e9fd307e907abf0052fdf6fa7f3adec97dc4a59982c226157179",
+      "hash_run2": "ddde3d513ab7e9fd307e907abf0052fdf6fa7f3adec97dc4a59982c226157179",
+      "status": "MATCH"
+    },
+    {
+      "entity": "lms_activities",
+      "count_run1": 3428,
+      "count_run2": 3428,
+      "id_match": true,
+      "hash_run1": "581235001c88b5379fdee1928a1dc8683d9b24b4396ee80bc72395ff7cf43fda",
+      "hash_run2": "581235001c88b5379fdee1928a1dc8683d9b24b4396ee80bc72395ff7cf43fda",
+      "status": "MATCH"
+    },
+    {
+      "entity": "support_cases",
+      "count_run1": 28,
+      "count_run2": 28,
+      "id_match": true,
+      "hash_run1": "f43493708bb39de814ea2fa29a827408394b68e9b781d655ddf5fb355b5655e9",
+      "hash_run2": "f43493708bb39de814ea2fa29a827408394b68e9b781d655ddf5fb355b5655e9",
+      "status": "MATCH"
+    },
+    {
+      "entity": "interventions",
+      "count_run1": 37,
+      "count_run2": 37,
+      "id_match": true,
+      "hash_run1": "7ff8fd72fbc69afbccee2ce68dee112df13a3ee228b5dcc8bf06b5ee31e43d32",
+      "hash_run2": "7ff8fd72fbc69afbccee2ce68dee112df13a3ee228b5dcc8bf06b5ee31e43d32",
+      "status": "MATCH"
+    },
+    {
+      "entity": "outcomes",
+      "count_run1": 100,
+      "count_run2": 100,
+      "id_match": true,
+      "hash_run1": "8d31aa5341d2d305995182fffd64d5fa5d9c31e798b1c72658a3f64753aa7dd4",
+      "hash_run2": "8d31aa5341d2d305995182fffd64d5fa5d9c31e798b1c72658a3f64753aa7dd4",
+      "status": "MATCH"
+    }
+  ]
+}

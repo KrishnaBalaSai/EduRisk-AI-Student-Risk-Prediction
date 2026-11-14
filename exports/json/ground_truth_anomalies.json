@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ANM-000001",
+    "issue_type": "future_data_leakage",
+    "entity_type": "RiskPrediction",
+    "record_id": "RSK-ANOMALY-0001",
+    "ground_truth_label": "ANOMALY_TEMPORAL_LEAKAGE",
+    "description": "Prediction timestamp (2026-10-15) precedes observation window cutoff (2026-12-20) or uses future assessment records.",
+    "detected": false,
+    "created_at": "2026-11-14T09:46:26.259213"
+  },
+  {
+    "id": "ANM-000002",
+    "issue_type": "wrong_attendance_denominator",
+    "entity_type": "AttendanceEvent",
+    "record_id": "ATT-ANOMALY-ENR-STU-2026-000001-CRS-000175-BAD-DENOM",
+    "ground_truth_label": "ANOMALY_ATTENDANCE_DENOMINATOR",
+    "description": "Duplicate session date for same enrollment creates discrepancy between total scheduled sessions and eligible attendance denominator.",
+    "detected": false,
+    "created_at": "2026-11-14T09:46:26.259213"
+  },
+  {
+    "id": "ANM-000003",
+    "issue_type": "withdrawn_student_active",
+    "entity_type": "Enrollment",
+    "record_id": "ENR-ANOMALY-STU-2026-000063-CRS-000200",
+    "ground_truth_label": "ANOMALY_WITHDRAWN_STUDENT_ACTIVE",
+    "description": "Student STU-2026-000063 withdrew on 2026-12-15 but holds active enrollment ENR-ANOMALY-STU-2026-000063-CRS-000200 with status 'Enrolled'.",
+    "detected": false,
+    "created_at": "2026-11-14T09:46:26.259213"
+  },
+  {
+    "id": "ANM-000004",
+    "issue_type": "intervention_precedes_trigger",
+    "entity_type": "Intervention",
+    "record_id": "INT-ANOMALY-0001",
+    "ground_truth_label": "ANOMALY_CHRONOLOGY_VIOLATION",
+    "description": "Intervention scheduled_date (2026-09-10) is prior to trigger_timestamp (2026-10-25).",
+    "detected": false,
+    "created_at": "2026-11-14T09:46:26.259213"
+  },
+  {
+    "id": "ANM-000005",
+    "issue_type": "missing_data_as_failure",
+    "entity_type": "AssessmentResult",
+    "record_id": "ASR-ANOMALY-STU-2026-000001-ZERO-MISS",
+    "ground_truth_label": "ANOMALY_MISSING_DATA_AS_ZERO",
+    "description": "Missing assessment submission has score explicitly hardcoded to 0.0 instead of NULL/excused representation.",
+    "detected": false,
+    "created_at": "2026-11-14T09:46:26.259213"
+  }
+]

@@ -1,0 +1,29 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+*.err
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

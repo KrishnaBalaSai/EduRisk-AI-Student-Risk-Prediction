@@ -1,0 +1,201 @@
+id,code,title,department,credits,instructor_name,semester,created_at,updated_at
+CRS-000001,CS101,Introduction to Programming,Computer Science,4,Prof. Erin Riley,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000002,CS102,Data Structures & Algorithms,Computer Science,4,Prof. Melissa Williams,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000003,CS201,Database Systems Design,Computer Science,3,Prof. Madison Hall,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000004,CS202,Computer Systems Architecture,Computer Science,3,Prof. Aaron Petersen,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000005,DS201,Statistical Learning & Inference,Data Science,4,Prof. David Gonzalez,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000006,DS202,Data Wrangling & Pipeline Ops,Data Science,3,Prof. Kyle Miles,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000007,DS301,Applied Machine Learning,Data Science,4,Prof. Diane Rodriguez,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000008,IT101,Web Engineering Fundamentals,Information Technology,3,Prof. James Hernandez,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000009,IT102,Cloud Infrastructure & DevOps,Information Technology,3,Prof. Darrell Garza,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000010,IT201,Cybersecurity & Access Control,Information Technology,3,Prof. Adam Wilson,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000011,MATH101,Linear Algebra for Engineers,Mathematics,4,Prof. Donald Bailey,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000012,MATH102,Calculus & Optimization,Mathematics,4,Prof. Brian Bass,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000013,MATH201,Probability & Stochastic Models,Mathematics,3,Prof. Eddie Ellis,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000014,EE101,Circuit Analysis & Logic,Electrical Engineering,3,Prof. Ruth Hart,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000015,EE102,Embedded Systems & IoT,Electrical Engineering,4,Prof. William Palmer,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000016,BA101,Business Analytics Foundations,Business Analytics,3,Prof. Cody Thompson,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000017,BA201,Predictive Business Modeling,Business Analytics,3,Prof. Christina Butler,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000018,BA301,Executive Decision Analysis,Business Analytics,3,Prof. Christopher Bryant,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000019,SE201,Software Architecture Principles,Software Engineering,4,Prof. Kathy Williams,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000020,SE301,Full-Stack System Engineering,Software Engineering,4,Prof. Melissa Bradshaw,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000021,CS101-2,Introduction to Programming Section -2,Computer Science,4,Prof. Jared Brown,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000022,CS102-2,Data Structures & Algorithms Section -2,Computer Science,4,Prof. Charles Davis,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000023,CS201-2,Database Systems Design Section -2,Computer Science,3,Prof. William Smith,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000024,CS202-2,Computer Systems Architecture Section -2,Computer Science,3,Prof. Charles Robinson,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000025,DS201-2,Statistical Learning & Inference Section -2,Data Science,4,Prof. Victoria Mendoza,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000026,DS202-2,Data Wrangling & Pipeline Ops Section -2,Data Science,3,Prof. Charles Patel,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000027,DS301-2,Applied Machine Learning Section -2,Data Science,4,Prof. Katherine Diaz,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000028,IT101-2,Web Engineering Fundamentals Section -2,Information Technology,3,Prof. Kelsey Watkins,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000029,IT102-2,Cloud Infrastructure & DevOps Section -2,Information Technology,3,Prof. Vickie Smith,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000030,IT201-2,Cybersecurity & Access Control Section -2,Information Technology,3,Prof. Timothy Young,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000031,MATH101-2,Linear Algebra for Engineers Section -2,Mathematics,4,Prof. Anthony Fletcher,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000032,MATH102-2,Calculus & Optimization Section -2,Mathematics,4,Prof. Kevin Black,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000033,MATH201-2,Probability & Stochastic Models Section -2,Mathematics,3,Prof. Joanna Ortega,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000034,EE101-2,Circuit Analysis & Logic Section -2,Electrical Engineering,3,Prof. Jessica Vincent,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000035,EE102-2,Embedded Systems & IoT Section -2,Electrical Engineering,4,Prof. Taylor Richard,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000036,BA101-2,Business Analytics Foundations Section -2,Business Analytics,3,Prof. David Barrera,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000037,BA201-2,Predictive Business Modeling Section -2,Business Analytics,3,Prof. Bonnie Williams,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000038,BA301-2,Executive Decision Analysis Section -2,Business Analytics,3,Prof. Bradley Wagner,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000039,SE201-2,Software Architecture Principles Section -2,Software Engineering,4,Prof. Alexis Palmer,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000040,SE301-2,Full-Stack System Engineering Section -2,Software Engineering,4,Prof. Ryan Stevens,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000041,CS101-3,Introduction to Programming Section -3,Computer Science,4,Prof. Matthew Harris,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000042,CS102-3,Data Structures & Algorithms Section -3,Computer Science,4,Prof. Valerie Davidson,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000043,CS201-3,Database Systems Design Section -3,Computer Science,3,Prof. Carrie Vance,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000044,CS202-3,Computer Systems Architecture Section -3,Computer Science,3,Prof. Ellen Hardy,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000045,DS201-3,Statistical Learning & Inference Section -3,Data Science,4,Prof. Sara Ramirez,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000046,DS202-3,Data Wrangling & Pipeline Ops Section -3,Data Science,3,Prof. Elizabeth Scott,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000047,DS301-3,Applied Machine Learning Section -3,Data Science,4,Prof. Xavier Sanders,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000048,IT101-3,Web Engineering Fundamentals Section -3,Information Technology,3,Prof. Laura Roth,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000049,IT102-3,Cloud Infrastructure & DevOps Section -3,Information Technology,3,Prof. Michael Navarro,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000050,IT201-3,Cybersecurity & Access Control Section -3,Information Technology,3,Prof. Mary Thompson,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000051,MATH101-3,Linear Algebra for Engineers Section -3,Mathematics,4,Prof. Walter Owens,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000052,MATH102-3,Calculus & Optimization Section -3,Mathematics,4,Prof. Kelly Hernandez,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000053,MATH201-3,Probability & Stochastic Models Section -3,Mathematics,3,Prof. Wendy Johnson,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000054,EE101-3,Circuit Analysis & Logic Section -3,Electrical Engineering,3,Prof. Danielle Best,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000055,EE102-3,Embedded Systems & IoT Section -3,Electrical Engineering,4,Prof. Michele Holt,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000056,BA101-3,Business Analytics Foundations Section -3,Business Analytics,3,Prof. Joseph Fritz,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000057,BA201-3,Predictive Business Modeling Section -3,Business Analytics,3,Prof. Katherine Dixon,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000058,BA301-3,Executive Decision Analysis Section -3,Business Analytics,3,Prof. Mary Martinez,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000059,SE201-3,Software Architecture Principles Section -3,Software Engineering,4,Prof. Kara Gould,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000060,SE301-3,Full-Stack System Engineering Section -3,Software Engineering,4,Prof. Ryan Mcintosh,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000061,CS101-4,Introduction to Programming Section -4,Computer Science,4,Prof. Anna Hernandez,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000062,CS102-4,Data Structures & Algorithms Section -4,Computer Science,4,Prof. John Knight,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000063,CS201-4,Database Systems Design Section -4,Computer Science,3,Prof. Andrew Reynolds,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000064,CS202-4,Computer Systems Architecture Section -4,Computer Science,3,Prof. Barbara Davis,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000065,DS201-4,Statistical Learning & Inference Section -4,Data Science,4,Prof. Richard Drake,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000066,DS202-4,Data Wrangling & Pipeline Ops Section -4,Data Science,3,Prof. Lawrence Mcdowell,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000067,DS301-4,Applied Machine Learning Section -4,Data Science,4,Prof. Catherine Gonzalez,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000068,IT101-4,Web Engineering Fundamentals Section -4,Information Technology,3,Prof. Jessica Ball,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000069,IT102-4,Cloud Infrastructure & DevOps Section -4,Information Technology,3,Prof. Nicolas Schmidt,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000070,IT201-4,Cybersecurity & Access Control Section -4,Information Technology,3,Prof. Bryan Lawson,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000071,MATH101-4,Linear Algebra for Engineers Section -4,Mathematics,4,Prof. Eric Henry,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000072,MATH102-4,Calculus & Optimization Section -4,Mathematics,4,Prof. James Powell,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000073,MATH201-4,Probability & Stochastic Models Section -4,Mathematics,3,Prof. Caleb Moyer,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000074,EE101-4,Circuit Analysis & Logic Section -4,Electrical Engineering,3,Prof. Thomas Hickman,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000075,EE102-4,Embedded Systems & IoT Section -4,Electrical Engineering,4,Prof. Nicole Powell,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000076,BA101-4,Business Analytics Foundations Section -4,Business Analytics,3,Prof. Roger Lopez,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000077,BA201-4,Predictive Business Modeling Section -4,Business Analytics,3,Prof. Joy Cook,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000078,BA301-4,Executive Decision Analysis Section -4,Business Analytics,3,Prof. Veronica Cain,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000079,SE201-4,Software Architecture Principles Section -4,Software Engineering,4,Prof. Brent Valdez,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000080,SE301-4,Full-Stack System Engineering Section -4,Software Engineering,4,Prof. Shawn Walker,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000081,CS101-5,Introduction to Programming Section -5,Computer Science,4,Prof. David Mitchell,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000082,CS102-5,Data Structures & Algorithms Section -5,Computer Science,4,Prof. Gregory Mendoza,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000083,CS201-5,Database Systems Design Section -5,Computer Science,3,Prof. Ronald Foster,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000084,CS202-5,Computer Systems Architecture Section -5,Computer Science,3,Prof. Bryan Walker,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000085,DS201-5,Statistical Learning & Inference Section -5,Data Science,4,Prof. Donald Petty,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000086,DS202-5,Data Wrangling & Pipeline Ops Section -5,Data Science,3,Prof. Jeffrey Dixon,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000087,DS301-5,Applied Machine Learning Section -5,Data Science,4,Prof. Steve Jones,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000088,IT101-5,Web Engineering Fundamentals Section -5,Information Technology,3,Prof. William Duncan,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000089,IT102-5,Cloud Infrastructure & DevOps Section -5,Information Technology,3,Prof. Pamela Pineda,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000090,IT201-5,Cybersecurity & Access Control Section -5,Information Technology,3,Prof. Mary Jones,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000091,MATH101-5,Linear Algebra for Engineers Section -5,Mathematics,4,Prof. Emily Hardin,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000092,MATH102-5,Calculus & Optimization Section -5,Mathematics,4,Prof. Benjamin Miranda,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000093,MATH201-5,Probability & Stochastic Models Section -5,Mathematics,3,Prof. Angela Keller,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000094,EE101-5,Circuit Analysis & Logic Section -5,Electrical Engineering,3,Prof. Gina Martin,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000095,EE102-5,Embedded Systems & IoT Section -5,Electrical Engineering,4,Prof. Matthew Nicholson,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000096,BA101-5,Business Analytics Foundations Section -5,Business Analytics,3,Prof. April Brewer,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000097,BA201-5,Predictive Business Modeling Section -5,Business Analytics,3,Prof. Susan Ponce,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000098,BA301-5,Executive Decision Analysis Section -5,Business Analytics,3,Prof. Bill Arnold,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000099,SE201-5,Software Architecture Principles Section -5,Software Engineering,4,Prof. Joseph Torres,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000100,SE301-5,Full-Stack System Engineering Section -5,Software Engineering,4,Prof. Justin Kelly,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000101,CS101-6,Introduction to Programming Section -6,Computer Science,4,Prof. Calvin Anderson,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000102,CS102-6,Data Structures & Algorithms Section -6,Computer Science,4,Prof. Christina Ibarra,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000103,CS201-6,Database Systems Design Section -6,Computer Science,3,Prof. Ronald White,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000104,CS202-6,Computer Systems Architecture Section -6,Computer Science,3,Prof. Shannon Golden,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000105,DS201-6,Statistical Learning & Inference Section -6,Data Science,4,Prof. Louis Harris,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000106,DS202-6,Data Wrangling & Pipeline Ops Section -6,Data Science,3,Prof. Tammy Golden,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000107,DS301-6,Applied Machine Learning Section -6,Data Science,4,Prof. Anthony Sutton,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000108,IT101-6,Web Engineering Fundamentals Section -6,Information Technology,3,Prof. David Reed,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000109,IT102-6,Cloud Infrastructure & DevOps Section -6,Information Technology,3,Prof. Michael Bailey,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000110,IT201-6,Cybersecurity & Access Control Section -6,Information Technology,3,Prof. Madison Morgan,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000111,MATH101-6,Linear Algebra for Engineers Section -6,Mathematics,4,Prof. James Webb,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000112,MATH102-6,Calculus & Optimization Section -6,Mathematics,4,Prof. Ashley George,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000113,MATH201-6,Probability & Stochastic Models Section -6,Mathematics,3,Prof. Veronica Martinez,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000114,EE101-6,Circuit Analysis & Logic Section -6,Electrical Engineering,3,Prof. Christine Chen,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000115,EE102-6,Embedded Systems & IoT Section -6,Electrical Engineering,4,Prof. Karen Smith,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000116,BA101-6,Business Analytics Foundations Section -6,Business Analytics,3,Prof. Kristine Wilson,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000117,BA201-6,Predictive Business Modeling Section -6,Business Analytics,3,Prof. Mason Campbell,Fall 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000118,BA301-6,Executive Decision Analysis Section -6,Business Analytics,3,Prof. Ryan Lambert,Spring 2026,2026-11-14T09:45:32.977222,2026-11-14T09:45:32.977222
+CRS-000119,SE201-6,Software Architecture Principles Section -6,Software Engineering,4,Prof. Oscar Johnson,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000120,SE301-6,Full-Stack System Engineering Section -6,Software Engineering,4,Prof. Danny Warren,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000121,CS101-7,Introduction to Programming Section -7,Computer Science,4,Prof. Emily Burke,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000122,CS102-7,Data Structures & Algorithms Section -7,Computer Science,4,Prof. Duane Wolf,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000123,CS201-7,Database Systems Design Section -7,Computer Science,3,Prof. Michael Ramirez,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000124,CS202-7,Computer Systems Architecture Section -7,Computer Science,3,Prof. Jordan Burgess,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000125,DS201-7,Statistical Learning & Inference Section -7,Data Science,4,Prof. Autumn Lawrence,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000126,DS202-7,Data Wrangling & Pipeline Ops Section -7,Data Science,3,Prof. Angela Stanton,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000127,DS301-7,Applied Machine Learning Section -7,Data Science,4,Prof. Kristie Smith,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000128,IT101-7,Web Engineering Fundamentals Section -7,Information Technology,3,Prof. Daniel Horn,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000129,IT102-7,Cloud Infrastructure & DevOps Section -7,Information Technology,3,Prof. Billy Dawson,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000130,IT201-7,Cybersecurity & Access Control Section -7,Information Technology,3,Prof. Kevin Morris,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000131,MATH101-7,Linear Algebra for Engineers Section -7,Mathematics,4,Prof. Nicholas Brown,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000132,MATH102-7,Calculus & Optimization Section -7,Mathematics,4,Prof. Lauren Johns,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000133,MATH201-7,Probability & Stochastic Models Section -7,Mathematics,3,Prof. Brendan Bell,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000134,EE101-7,Circuit Analysis & Logic Section -7,Electrical Engineering,3,Prof. Heather Alvarado,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000135,EE102-7,Embedded Systems & IoT Section -7,Electrical Engineering,4,Prof. Michael Hopkins,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000136,BA101-7,Business Analytics Foundations Section -7,Business Analytics,3,Prof. Jennifer Johnson,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000137,BA201-7,Predictive Business Modeling Section -7,Business Analytics,3,Prof. Catherine Ramirez,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000138,BA301-7,Executive Decision Analysis Section -7,Business Analytics,3,Prof. Jason Chan,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000139,SE201-7,Software Architecture Principles Section -7,Software Engineering,4,Prof. Kyle Brown,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000140,SE301-7,Full-Stack System Engineering Section -7,Software Engineering,4,Prof. Raymond Brown,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000141,CS101-8,Introduction to Programming Section -8,Computer Science,4,Prof. Michele Martin,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000142,CS102-8,Data Structures & Algorithms Section -8,Computer Science,4,Prof. Rebecca Huang,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000143,CS201-8,Database Systems Design Section -8,Computer Science,3,Prof. Jo Hall,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000144,CS202-8,Computer Systems Architecture Section -8,Computer Science,3,Prof. Nicole Humphrey,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000145,DS201-8,Statistical Learning & Inference Section -8,Data Science,4,Prof. Kaitlyn Mason,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000146,DS202-8,Data Wrangling & Pipeline Ops Section -8,Data Science,3,Prof. Bruce Reid,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000147,DS301-8,Applied Machine Learning Section -8,Data Science,4,Prof. Leslie Cook,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000148,IT101-8,Web Engineering Fundamentals Section -8,Information Technology,3,Prof. Michael Jackson,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000149,IT102-8,Cloud Infrastructure & DevOps Section -8,Information Technology,3,Prof. Rose Willis,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000150,IT201-8,Cybersecurity & Access Control Section -8,Information Technology,3,Prof. Jeremy Mccormick,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000151,MATH101-8,Linear Algebra for Engineers Section -8,Mathematics,4,Prof. Sean Andersen,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000152,MATH102-8,Calculus & Optimization Section -8,Mathematics,4,Prof. Christina Travis,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000153,MATH201-8,Probability & Stochastic Models Section -8,Mathematics,3,Prof. Robert Collins,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000154,EE101-8,Circuit Analysis & Logic Section -8,Electrical Engineering,3,Prof. Nicholas Scott,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000155,EE102-8,Embedded Systems & IoT Section -8,Electrical Engineering,4,Prof. Blake Harmon,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000156,BA101-8,Business Analytics Foundations Section -8,Business Analytics,3,Prof. David Waters,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000157,BA201-8,Predictive Business Modeling Section -8,Business Analytics,3,Prof. Mary Jones,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000158,BA301-8,Executive Decision Analysis Section -8,Business Analytics,3,Prof. Jessica Conway,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000159,SE201-8,Software Architecture Principles Section -8,Software Engineering,4,Prof. Kayla Perez,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000160,SE301-8,Full-Stack System Engineering Section -8,Software Engineering,4,Prof. Brian Williams,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000161,CS101-9,Introduction to Programming Section -9,Computer Science,4,Prof. Andrew Simon,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000162,CS102-9,Data Structures & Algorithms Section -9,Computer Science,4,Prof. Andrew Thornton,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000163,CS201-9,Database Systems Design Section -9,Computer Science,3,Prof. Lisa Baker,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000164,CS202-9,Computer Systems Architecture Section -9,Computer Science,3,Prof. Melissa Olsen,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000165,DS201-9,Statistical Learning & Inference Section -9,Data Science,4,Prof. Jessica Chapman,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000166,DS202-9,Data Wrangling & Pipeline Ops Section -9,Data Science,3,Prof. Suzanne Thomas,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000167,DS301-9,Applied Machine Learning Section -9,Data Science,4,Prof. Shawn Bennett,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000168,IT101-9,Web Engineering Fundamentals Section -9,Information Technology,3,Prof. Jennifer Rojas,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000169,IT102-9,Cloud Infrastructure & DevOps Section -9,Information Technology,3,Prof. Darius Gentry,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000170,IT201-9,Cybersecurity & Access Control Section -9,Information Technology,3,Prof. Charles Mccoy,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000171,MATH101-9,Linear Algebra for Engineers Section -9,Mathematics,4,Prof. Kristi Foster,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000172,MATH102-9,Calculus & Optimization Section -9,Mathematics,4,Prof. Kurt Jackson,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000173,MATH201-9,Probability & Stochastic Models Section -9,Mathematics,3,Prof. Eric Jackson,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000174,EE101-9,Circuit Analysis & Logic Section -9,Electrical Engineering,3,Prof. Madison Ferrell,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000175,EE102-9,Embedded Systems & IoT Section -9,Electrical Engineering,4,Prof. John Diaz,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000176,BA101-9,Business Analytics Foundations Section -9,Business Analytics,3,Prof. Timothy Johnson,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000177,BA201-9,Predictive Business Modeling Section -9,Business Analytics,3,Prof. Jason Baker,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000178,BA301-9,Executive Decision Analysis Section -9,Business Analytics,3,Prof. Christina Lopez,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000179,SE201-9,Software Architecture Principles Section -9,Software Engineering,4,Prof. Angela Hendricks,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000180,SE301-9,Full-Stack System Engineering Section -9,Software Engineering,4,Prof. Anna Taylor,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000181,CS101-10,Introduction to Programming Section -10,Computer Science,4,Prof. Keith Smith,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000182,CS102-10,Data Structures & Algorithms Section -10,Computer Science,4,Prof. Jessica Patterson,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000183,CS201-10,Database Systems Design Section -10,Computer Science,3,Prof. Kimberly Castaneda,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000184,CS202-10,Computer Systems Architecture Section -10,Computer Science,3,Prof. Shawn Ponce,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000185,DS201-10,Statistical Learning & Inference Section -10,Data Science,4,Prof. Courtney Campbell,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000186,DS202-10,Data Wrangling & Pipeline Ops Section -10,Data Science,3,Prof. Matthew Hunt,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000187,DS301-10,Applied Machine Learning Section -10,Data Science,4,Prof. Amy Davis,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000188,IT101-10,Web Engineering Fundamentals Section -10,Information Technology,3,Prof. Paul Harris,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000189,IT102-10,Cloud Infrastructure & DevOps Section -10,Information Technology,3,Prof. Bethany Porter,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000190,IT201-10,Cybersecurity & Access Control Section -10,Information Technology,3,Prof. Jessica Keith,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000191,MATH101-10,Linear Algebra for Engineers Section -10,Mathematics,4,Prof. Crystal Taylor,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000192,MATH102-10,Calculus & Optimization Section -10,Mathematics,4,Prof. Duane Benjamin,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000193,MATH201-10,Probability & Stochastic Models Section -10,Mathematics,3,Prof. Christopher Thornton,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000194,EE101-10,Circuit Analysis & Logic Section -10,Electrical Engineering,3,Prof. Mario Mclean,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000195,EE102-10,Embedded Systems & IoT Section -10,Electrical Engineering,4,Prof. Jill Stewart,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000196,BA101-10,Business Analytics Foundations Section -10,Business Analytics,3,Prof. Donna Hall,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000197,BA201-10,Predictive Business Modeling Section -10,Business Analytics,3,Prof. Matthew Walker,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000198,BA301-10,Executive Decision Analysis Section -10,Business Analytics,3,Prof. Andrea Franklin,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000199,SE201-10,Software Architecture Principles Section -10,Software Engineering,4,Prof. Robert Smith,Fall 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
+CRS-000200,SE301-10,Full-Stack System Engineering Section -10,Software Engineering,4,Prof. Christopher Terry,Spring 2026,2026-11-14T09:45:32.979235,2026-11-14T09:45:32.979235
