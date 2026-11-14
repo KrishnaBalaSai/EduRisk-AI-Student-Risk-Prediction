@@ -73,7 +73,10 @@ class StudentService:
         interventions = self.intervention_repo.get_by_student(student_id)
 
         # Latest Risk Prediction
-        latest_risk = self.risk_repo.get_latest_for_student(student_id)
+        latest_risk = self.risk_repo.get_latest_for_student(
+    student_id,
+    cutoff_date=cutoff_date or date.today()
+)
 
         return {
             "student": student,

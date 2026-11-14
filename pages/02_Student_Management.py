@@ -23,11 +23,11 @@ from presentation.components.header import apply_theme, render_sidebar
 from application.services.student_service import StudentService
 from application.services.risk_service import RiskService
 
-st.set_page_config(page_title="Student Management — EduRisk AI", page_icon="👤", layout="wide")
+st.set_page_config(page_title="Student Management - EduRisk AI", page_icon="S", layout="wide")
 apply_theme()
 render_sidebar()
 
-st.title("👤 Student Management & Longitudinal Profile")
+st.title("Student Management & Longitudinal Profile")
 st.markdown("Holistic 360-degree learner records integrating enrollments, attendance, assessments, digital footprints, and interventions.")
 
 student_service = StudentService()
@@ -36,7 +36,7 @@ risk_service = RiskService()
 # Search and Filtering Controls
 f_col1, f_col2, f_col3 = st.columns([2, 1, 1])
 with f_col1:
-    search_query = st.text_input("🔍 Search Student (Name, ID, Email, Cohort)", placeholder="e.g. STU-2026-000001 or Emily")
+    search_query = st.text_input("Search Student (Name, ID, Email, Cohort)", placeholder="e.g. STU-2026-000001 or Emily")
 with f_col2:
     status_filter = st.selectbox("Status", ["All", "Active", "Withdrawn", "Graduated", "Suspended"])
 with f_col3:
@@ -75,7 +75,7 @@ for s in students:
 df_students = pd.DataFrame(student_rows)
 
 selected_student_id = st.selectbox(
-    "Select a student to view complete 360° Profile:",
+    "Select a student to view complete 360-degree Profile:",
     options=[s.id for s in students],
     format_func=lambda x: f"{x} - {next((s.first_name + ' ' + s.last_name for s in students if s.id == x), '')}"
 )
@@ -83,7 +83,12 @@ selected_student_id = st.selectbox(
 st.markdown("---")
 
 # Load Student 360 Profile
-profile = student_service.get_student_profile(selected_student_id)
+from datetime import date
+
+profile = student_service.get_student_profile(
+    selected_student_id,
+    cutoff_date=date.today()
+)
 if not profile:
     st.error(f"Could not load profile for student {selected_student_id}.")
     st.stop()
@@ -91,8 +96,9 @@ if not profile:
 s = profile["student"]
 latest_risk = profile["latest_risk"]
 
+
 # Profile Header Banner
-st.markdown(
+st.html(
     f"""
     <div style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -111,18 +117,18 @@ st.markdown(
             </div>
         </div>
     </div>
-    """,
-    unsafe_allow_html=True
+    """
 )
+
 
 # Tabs
 tab_overview, tab_att, tab_asm, tab_lms, tab_support, tab_risk = st.tabs([
-    "📋 Overview & Courses",
-    "📅 Attendance Record",
-    "📝 Assessment Results",
-    "💻 LMS Activity",
-    "🛡️ Support Cases & Interventions",
-    "🔍 Risk Analysis"
+    "Overview & Courses",
+    "Attendance Record",
+    "Assessment Results",
+    "LMS Activity",
+    "Support Cases & Interventions",
+    "Risk Analysis"
 ])
 
 with tab_overview:
@@ -170,7 +176,7 @@ with tab_att:
                 "Course": ev.course_id,
                 "Status": ev.status,
                 "Type": ev.session_type,
-                "Notes": ev.notes or "—"
+                "Notes": ev.notes or "-"
             }
             for ev in att_events
         ])
@@ -260,7 +266,7 @@ with tab_support:
                 "Scheduled Date": it.scheduled_date.isoformat(),
                 "Completion Date": it.completion_date.isoformat() if it.completion_date else "Pending",
                 "Status": it.status,
-                "Outcome Notes": it.outcome_notes or "—"
+                "Outcome Notes": it.outcome_notes or "-"
             }
             for it in ints
         ])

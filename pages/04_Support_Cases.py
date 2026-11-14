@@ -33,7 +33,7 @@ support_service = SupportService()
 student_service = StudentService()
 
 # Metric summary
-cases = support_service.get_all_cases(limit=1000)
+cases = support_service.get_all_cases(limit=5000)
 open_c = sum(1 for c in cases if c.status == "Open")
 assigned_c = sum(1 for c in cases if c.status == "Assigned")
 in_prog_c = sum(1 for c in cases if c.status == "In Progress")

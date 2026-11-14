@@ -146,7 +146,7 @@ class RiskService:
         Each student gets one prediction for the given cutoff (historical records preserved).
         """
         students = self.student_repo.get_all(limit=10000)
-        cutoff_date = observation_window_end or date(2026, 11, 15)
+        cutoff_date = observation_window_end or date.today()
         predictions = []
 
         for s in students:

@@ -1,9 +1,12 @@
-"""
+﻿"""
 Risk Prediction Repository
 """
 
+from datetime import date
 from typing import List, Optional
 from sqlalchemy.orm import Session
+from sqlalchemy import func
+
 from data.models.risk_prediction import RiskPrediction
 from data.repositories.base_repository import BaseRepository
 
@@ -12,13 +15,23 @@ class RiskRepository(BaseRepository[RiskPrediction]):
     def __init__(self, session: Optional[Session] = None):
         super().__init__(RiskPrediction, session)
 
-    def get_latest_for_student(self, student_id: str) -> Optional[RiskPrediction]:
-        return (
-            self.session.query(RiskPrediction)
-            .filter(RiskPrediction.student_id == student_id)
-            .order_by(RiskPrediction.prediction_timestamp.desc())
-            .first()
+    def get_latest_for_student(
+        self,
+        student_id: str,
+        cutoff_date: Optional[date] = None
+    ) -> Optional[RiskPrediction]:
+        query = self.session.query(RiskPrediction).filter(
+            RiskPrediction.student_id == student_id
         )
+
+        if cutoff_date:
+            query = query.filter(
+                RiskPrediction.observation_window_end <= cutoff_date
+            )
+
+        return query.order_by(
+            RiskPrediction.prediction_timestamp.desc()
+        ).first()
 
     def get_by_category(self, category: str) -> List[RiskPrediction]:
         return (
@@ -29,9 +42,7 @@ class RiskRepository(BaseRepository[RiskPrediction]):
         )
 
     def get_latest_all_students(self) -> List[RiskPrediction]:
-        """Returns the most recent risk prediction for every student with predictions."""
-        # Using subquery to find max prediction_timestamp per student
-        from sqlalchemy import func
+        """Returns the most recent risk prediction for every student."""
         subq = (
             self.session.query(
                 RiskPrediction.student_id,
@@ -40,6 +51,7 @@ class RiskRepository(BaseRepository[RiskPrediction]):
             .group_by(RiskPrediction.student_id)
             .subquery()
         )
+
         return (
             self.session.query(RiskPrediction)
             .join(
@@ -50,4 +62,3 @@ class RiskRepository(BaseRepository[RiskPrediction]):
             .order_by(RiskPrediction.overall_score.desc())
             .all()
         )
-

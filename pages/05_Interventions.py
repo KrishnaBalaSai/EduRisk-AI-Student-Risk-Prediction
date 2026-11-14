@@ -37,7 +37,7 @@ student_service = StudentService()
 support_service = SupportService()
 
 # Efficacy metrics
-interventions = int_service.get_all_interventions(limit=1000)
+interventions = int_service.get_all_interventions(limit=5000)
 total_int = len(interventions)
 active_int = sum(1 for i in interventions if i.status in ("Scheduled", "In Progress"))
 completed_int = sum(1 for i in interventions if i.status == "Completed")
