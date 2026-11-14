@@ -134,8 +134,10 @@ tab_overview, tab_att, tab_asm, tab_lms, tab_support, tab_risk = st.tabs([
 with tab_overview:
     st.subheader("Registered Course Enrollments")
     enrs = profile["enrollments"]
+
     if enrs:
         enr_data = []
+
         for e in enrs:
             c = e.course
             enr_data.append({
@@ -146,9 +148,15 @@ with tab_overview:
                 "Credits": c.credits if c else "N/A",
                 "Semester": c.semester if c else "N/A",
                 "Status": e.status,
-                "Final Grade": f"{e.final_grade:.1f}%" if e.final_grade is not None else "In Progress"
+                "Final Grade": (
+                    f"{e.final_grade:.1f}%"
+                    if e.final_grade is not None
+                    else "In Progress"
+                )
             })
-        st.dataframe(pd.DataFrame(enr_data), use_container_width=True)
+
+        enrollment_df = pd.DataFrame(enr_data)
+        st.table(enrollment_df)
     else:
         st.info("No course enrollments found.")
 

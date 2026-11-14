@@ -2,7 +2,7 @@
 Student Application Service
 Coordinates student profiles, history, and search queries between presentation and repositories.
 """
-
+from data.repositories.enrollment_repository import EnrollmentRepository
 from typing import List, Optional, Dict, Any
 from datetime import date
 from data.repositories.student_repository import StudentRepository
@@ -27,6 +27,7 @@ class StudentService:
         risk_repo: Optional[RiskRepository] = None
     ):
         self.student_repo = student_repo or StudentRepository()
+        self.enrollment_repo = EnrollmentRepository(self.student_repo.session)
         self.attendance_repo = attendance_repo or AttendanceRepository()
         self.asr_repo = assessment_result_repo or AssessmentResultRepository()
         self.lms_repo = lms_repo or LMSRepository()
@@ -80,7 +81,7 @@ class StudentService:
 
         return {
             "student": student,
-            "enrollments": student.enrollments,
+            "enrollments": self.enrollment_repo.get_by_student(student_id),
             "attendance_summary": att_summary,
             "attendance_events": attendance_events,
             "assessment_summary": asm_summary,
