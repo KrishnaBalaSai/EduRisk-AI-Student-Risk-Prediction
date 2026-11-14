@@ -42,9 +42,9 @@ with st.expander("⚙️ Engine Configuration & Temporal Cutoff Controls", expan
         st.markdown("##### Temporal Safety Observation Window")
         selected_cutoff = st.date_input(
             "Observation Cutoff Date (No Future Leakage)",
-            value=date(2026, 11, 15),
+            value=date.today(),
             min_value=date(2026, 9, 1),
-            max_value=date(2027, 5, 30),
+            max_value=date.today(),
             help="Signals occurring after this date are strictly hidden from the prediction engine."
         )
     with col_c2:
@@ -85,7 +85,7 @@ with eval_col2:
     recompute = st.button("⚡ Evaluate Student on Cutoff Date", use_container_width=True)
 
 # Compute prediction for selected student
-if recompute or selected_stu_id:
+if recompute:
     pred = risk_service.predict_student_risk(
         selected_stu_id,
         observation_window_end=selected_cutoff,
@@ -93,6 +93,15 @@ if recompute or selected_stu_id:
     )
 else:
     pred = risk_service.get_student_risk(selected_stu_id)
+
+    if pred and pred.observation_window_end != selected_cutoff:
+        st.warning(
+            f"The latest saved prediction is for "
+            f"{pred.observation_window_end}. "
+            f"Click 'Evaluate Student on Cutoff Date' "
+            f"to calculate the prediction for {selected_cutoff}."
+        )
+        pred = None
 
 if pred:
     score_col1, score_col2 = st.columns([1, 1])
