@@ -26,12 +26,18 @@ class AnalyticsService:
         self._session = session
         self.risk_repo = RiskRepository(session=self.session)
         self.int_repo = InterventionRepository(session=self.session)
+        self._cached_latest_preds = None
 
     @property
     def session(self):
         if self._session is None:
             self._session = get_session()
         return self._session
+
+    def _get_latest_predictions(self) -> List[RiskPrediction]:
+        if self._cached_latest_preds is None:
+            self._cached_latest_preds = self.risk_repo.get_latest_all_students()
+        return self._cached_latest_preds
 
     def get_executive_kpis(self) -> Dict[str, Any]:
         """
@@ -41,8 +47,8 @@ class AnalyticsService:
         total_courses = self.session.query(Course).count()
         total_enrollments = self.session.query(Enrollment).count()
 
-        # Risk categories from latest predictions
-        latest_preds = self.risk_repo.get_latest_all_students()
+        # Risk categories from latest predictions (reusing cached list for the request)
+        latest_preds = self._get_latest_predictions()
         high_risk = sum(1 for p in latest_preds if p.risk_category == "High Risk")
         med_risk = sum(1 for p in latest_preds if p.risk_category == "Medium Risk")
         low_risk = sum(1 for p in latest_preds if p.risk_category == "Low Risk")
@@ -87,7 +93,7 @@ class AnalyticsService:
         }
 
     def get_risk_distribution(self) -> Dict[str, int]:
-        latest_preds = self.risk_repo.get_latest_all_students()
+        latest_preds = self._get_latest_predictions()
         dist = {"Low Risk": 0, "Medium Risk": 0, "High Risk": 0}
         for p in latest_preds:
             dist[p.risk_category] = dist.get(p.risk_category, 0) + 1

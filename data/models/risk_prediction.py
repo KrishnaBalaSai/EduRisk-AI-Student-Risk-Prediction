@@ -25,6 +25,11 @@ class RiskPrediction(Base):
     model_version = Column(String(32), nullable=False, default="v1.0.0-rule")
     created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
 
+    # Composite index for lightning-fast latest-prediction queries
+    __table_args__ = (
+        Index("ix_risk_pred_student_ts", "student_id", "prediction_timestamp"),
+    )
+
     # Relationships
     student = relationship("Student", back_populates="risk_predictions")
 

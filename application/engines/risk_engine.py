@@ -187,7 +187,7 @@ class RiskEngine:
             f"{category} (Score: {overall:.1f}/100). "
             f"Primary factor: {primary_driver[0]} ({primary_driver[1]:.1f}% risk) — {primary_driver[2]} "
             f"Secondary factor: {secondary_driver[0]} ({secondary_driver[1]:.1f}% risk) — {secondary_driver[2]} "
-            f"Overall weighted calculation based on 35% attendance, 30% assessment, 20% LMS, and 15% support history."
+            f"Overall weighted calculation based on {int(round(self.w_att*100))}% attendance, {int(round(self.w_asm*100))}% assessment, {int(round(self.w_lms*100))}% LMS, and {int(round(self.w_sup*100))}% support history."
         )
 
         pred_id = f"RSK-{student_id}-{observation_window_end.strftime('%Y%m%d')}"
